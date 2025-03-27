@@ -55,7 +55,8 @@
 		android:backupAgent="com.shatteredpixel.yasd.android.AndroidBackupHandler">
 		<activity
 			android:label="${appName}"
-			android:name="com.shatteredpixel.yasd.android.AndroidLauncher">
+		
+android:exported="true"	android:name="com.shatteredpixel.yasd.android.AndroidLauncher">
 			<intent-filter >
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
