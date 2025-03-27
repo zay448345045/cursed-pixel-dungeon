@@ -312,7 +312,7 @@ public class Bundle {
 	
 	public void put( String key, float value ) {
 		try {
-			data.put( key, value );
+			data.put( key, (double) value );
 		} catch (JSONException e) {
 			Game.reportException(e);
 		}
