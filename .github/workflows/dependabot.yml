@@ -1,0 +1,21 @@
+version: 2
+updates:
+  # 更新项目级别的 Gradle 插件
+  - package-ecosystem: "gradle"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+
+  # 更新应用模块的依赖
+  - package-ecosystem: "gradle"
+    directory: "/android"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+  # 
+  - package-ecosystem: "gradle"
+    directory: "/core"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
