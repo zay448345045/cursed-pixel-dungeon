@@ -29,6 +29,7 @@ apply plugin: 'com.android.application'
 sourceCompatibility = targetCompatibility = appJavaCompatibility
 
 android {
+namespace 'com.smujamesb.cursedpixeldungeon'
     compileSdkVersion appAndroidCompileSDK
     compileOptions {
         sourceCompatibility = appJavaCompatibility
