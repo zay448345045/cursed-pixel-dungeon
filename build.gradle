@@ -54,7 +54,7 @@ allprojects {
         appAndroidMinSDK = 14
         appAndroidTargetSDK = 35
 
-        gdxVersion = '1.9.10'
+        gdxVersion = '1.9.13'
     }
     version = appVersionName
 
