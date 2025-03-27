@@ -35,6 +35,9 @@ namespace 'com.shatteredpixel.yasd.android'
         sourceCompatibility = appJavaCompatibility
         compileOptions.sourceCompatibility = appJavaCompatibility
         compileOptions.targetCompatibility = appJavaCompatibility
+packagingOptions {
+        pickFirst 'AndroidManifest.xml'
+    }
     }
 
 
