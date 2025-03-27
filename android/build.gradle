@@ -29,7 +29,7 @@ apply plugin: 'com.android.application'
 sourceCompatibility = targetCompatibility = appJavaCompatibility
 
 android {
-namespace 'package="com.shatteredpixel.yasd.android'
+namespace 'com.shatteredpixel.yasd.android'
     compileSdkVersion appAndroidCompileSDK
     compileOptions {
         sourceCompatibility = appJavaCompatibility
