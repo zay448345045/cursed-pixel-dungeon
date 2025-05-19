@@ -39,7 +39,7 @@ dependencies {
     implementation "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
 
     //noinspection GradleDependency , later JSON versions cause crashes on old versions of android 20170516 20250107
-    implementation "org.json:json:20170516"
+    implementation "org.json:json:20250517"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 }
 buildscript {
